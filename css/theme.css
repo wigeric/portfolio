@@ -1,0 +1,39 @@
+body {
+background: url("images/bg02.jpg") repeat scroll 0% 0% #353D40; 
+}		
+		
+.navbar-inverse	{
+border-color: #fff;
+}
+.aligngauche {
+text-align: left;
+}
+.aligntextdroite {
+float: right;
+}
+.carousel-caption {
+top: -20px;
+}
+header {
+    color: #474F51;
+    font-size: 13.5pt;
+    font-family: "Courier New";
+    line-height: 1.85em;
+    font-weight: 400;
+	}
+	.popover {
+width: 400px;
+}
+
+.compli {
+list-style-type: none;
+}
+
+
+.dropdown-dark	{
+text-align: center;
+min-width: 60px;
+background-color: #080808;
+border-color: #fff;
+}
+
