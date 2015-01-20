@@ -23,9 +23,11 @@
       <ul class="nav navbar-nav">
         <li><a href="index.php"><?php echo $nav_acc; ?></a></li>
         <li><a href="projets.php"><? echo $nav_pro; ?> </a></li>
-        <li><a href="formation.php"><? echo $nav_form; ?></a></li>
+        <li><a href="competences.php"><? echo $nav_comp; ?></a></li>
         <li><a href="cv.php"><? echo $nav_cv; ?></a></li>
         <li><a href="loisirs.php"><? echo $nav_loisirs ?></a></li>
+        <li><a href="contact.php"><? echo $nav_contact ?></a></li>
+		
       </ul>
 	  <ul class="nav navbar-nav navbar-right">
 	          <li class="dropdown">

@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Titre</title>
+		<title>CV</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -36,10 +36,9 @@ else
 	}
 
 include($locale);
-
-include('navbar.html');
+$page = basename($_SERVER['PHP_SELF']); 
+include('navbar.php');
 ?>
-			
 
 
 

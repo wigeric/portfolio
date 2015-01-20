@@ -1,12 +1,8 @@
 <!DOCTYPE HTML>
-<!--
-	Halcyonic by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
-		<title>Titre</title>
+		<title>Loisirs</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -19,10 +15,25 @@
 		<link rel="stylesheet" href="css/bootstrap.css" />
 		<link href="css/theme.css" rel="stylesheet">
 		<link rel="icon" type="image/png" href="images/favicon.png"/>
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<style>
+h1 {
+text-align: center;
+font-family: "Bangers";
+}
 
+h1 a {
+float: left;
+color:  #000;
+padding-top: 5px;
+padding-bottom: 5px;
+font-size: 28pt;
+font-family: "Bangers";
+}
 	</style>
 
 	</head>
@@ -30,7 +41,7 @@
 
 				
 <?php
-if ($_COOKIE['language'] == "en")
+if ((isset($_COOKIE['language'])) AND ($_COOKIE['language'] == "en"))
 	{
 	$locale = 'en.php';
 	}
@@ -40,12 +51,56 @@ else
 	}
 
 include($locale);
+$page = basename($_SERVER['PHP_SELF']); 
 include('navbar.php');
 ?>
-			
 
 
 
 
+
+<div class="container">
+<div class="visible-xs-inline col-xs-12 well incenter">
+
+<a href="#musique" target="_self"><i class="fa fa-music fa-3x iconloi"></i></a>
+<a href="#lecture" target="_self"><i class="fa fa-book fa-3x iconloi"></i></a>
+<a href="#jouer" target="_self"><i class="fa fa-gamepad fa-3x iconloi"></i></a>
+<a href="#empire" target="_self"><i class="fa fa-empire fa-3x iconloi"></i></a>
+
+</div>
+<div class="hidden-xs col-sm-3 col-md-3 col-lg-3 ">
+</div>
+<div class="hidden-xs col-sm-2 col-md-2 col-lg-2 well fixnav">
+<span><h1><a href="#musique"><? echo $loi_musT;?></a></h1></span>
+<br/><br/>
+<span><h1><a href="#lecture"><? echo $loi_lecT;?></a></h1></span><br/><br/>
+<span><h1><a href="#jouer"><? echo $loi_jouT;?></a></h1></span><br/><br/>
+</div>
+
+<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+<!-- musique -->
+<div id="musique" class="well well-sm"><h1><? echo $loi_musT;?></h1><div><?echo $loi_musD;?></div><span><br/><br/> <center><iframe  max-width="20%" height="200" class="embed-responsive-item" src="http://www.youtube-nocookie.com/v/H1L4sVxuKZg?playlist=YR5ApYxkU-U,QsNft5ftYSs,CBiui2TJ4s0,FO566BKY2Jc" frameborder="0" ></iframe></center></div>
+
+<!-- lecture -->
+<div id="lecture" class="well well-sm ">
+<h1> <? echo $loi_lecT;?></h1><div><? echo $loi_lecD;?></div>
+</div>
+
+<!-- Jouer -->
+<div id="jouer" class="well well-sm ">
+<h1> <? echo $loi_jouT;?></h1><div><? echo $loi_jouD;?></div>
+</div>
+
+<!-- Empire -->
+<div id="empire" class="well well-sm visible-xs-block">
+<h1> <? echo $loi_empT;?></h1><div><? echo $loi_empD; ?></div>
+</div>
+
+
+</div>
+
+
+
+</div>
 	</body>
 </html>

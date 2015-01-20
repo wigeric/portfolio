@@ -4,10 +4,11 @@
 //navbar
 $nav_acc = "Accueil";
 $nav_pro = "Projets";
-$nav_form = "Formation";
+$nav_comp = "Compétences";
 $nav_cv = "CV";
 $nav_loisirs = "Loisirs";
 $nav_lang = "Langue";
+$nav_contact = "Contact";
 
 
 //Home
@@ -20,7 +21,7 @@ $pro_enonc = "Enoncés";
 $pro_obj = "Objectifs pédagogiques";
 $pro_group = "Groupe de travail";
 $pro_note = "Note obtenue";
-$pro_det = "<div><u>A</u> : Compétences acquises<br/><u>B</u> : Ecart mineur<br><u>C</u> : Ecarts majeurs<br/><u>D</u> : Pas de travail (éliminatoire)";
+$pro_det = '<div><span class=\"underline\">A</span> : Compétences acquises<br/><span class=\"underline\">B</span> : Ecart mineur<br><span class=\"underline\">C</span> : Ecarts majeurs<br/><span class=\"underline\">D</span> : Pas de travail (éliminatoire)';
 $pro_visu = "Visualiser";
 $pro_dl = "Télécharger";
 $pro_ferm = "Fermer";
@@ -58,4 +59,27 @@ $pro_H2_1 = "Répondre à un cahier des charges.";
 $pro_H2_2 = "Respecter un budget.";
 $pro_H2_3 = "Solutionner un problème.";
 $pro_H2_4 = "Défendre les solutions retenues.";
+
+//Contact
+$con_titre = "Formulaire de contact";
+$con_nom = "Nom";
+$con_pre = "Prénom";
+$con_corp = "Entreprise";
+$con_mail = "Courriel";
+$con_sub = "Sujet";
+$con_text = "Message";
+$con_btn = "Envoyer";
+
+//Loisirs
+$loi_musT = "Musique";
+$loi_musD = "Pratiquant la musique depuis l'âge de 6 ans, celle ci a toujours été une partie importante de ma vie. Parmi mes styles de prédilection, se trouvent pêle-mêle : Musique classique, rock(s), Hip hop, Punk, musique électronique.";
+
+$loi_lecT = "Lecture";
+$loi_lecD = "Liste de courses, dictionnaire, mode d'emploi... Tout est un prétexte pour lire. Mes préférences vont quand même vers les polars (<a href=\"http://fr.wikipedia.org/wiki/James_Ellroy\" target=\"_blank\">Ellroy</a>, <a href=\"http://fr.wikipedia.org/wiki/Michael_Connelly\" target=\"_blank\">Connelly</a>, <a href=\"http://fr.wikipedia.org/wiki/Tim_Dorsey\" target=\"_blank\">Dorsey</a>), la science fiction (<a href=\"http://fr.wikipedia.org/wiki/Isaac_Asimov\" target=\"_blank\">Asimov</a>, <a href=\"http://fr.wikipedia.org/wiki/Frank_Herbert\" target=\"_blank\">Herbert</a>, <a href=\"http://fr.wikipedia.org/wiki/Douglas_Adams\" target=\"_blank\">Adams</a>) et les classiques (<a href=\"http://fr.wikipedia.org/wiki/Alexandre_Dumas\" target=\"_blank\">Dumas</a>, <a href=\"http://fr.wikipedia.org/wiki/Albert_Camus\" target=\"_blank\">Camus</a>, <a href=\"http://fr.wikipedia.org/wiki/Alphonse_Allais\" target=\"_blank\">Allais</a>).";
+
+$loi_jouT = "Jeux";
+$loi_jouD = "<h3>Jeux classiques</h3>Depuis quelques années, je joue à des jeux de plateau avec des amis. Parmi ces jeux nous pouvons citer : \"Les Chevaliers de la Table Ronde\", \"Munchkin\", \"CIA vs KGB\" et d'autres au fil des achats.<h3>Jeux videos</h3>Je suis également amateur de jeux videos. Notamment la license \"Assassins's Creed\" et le MOBA \"League of Legends\"";
+
+$loi_empT = "L'Empire";
+$loi_empD = "<h3>19 Av.BY - 4 Ap.BY</h3>Contre la corruption et la conspiration Jedi.<br/><br/><blockquote>Dans le cas d'officiers Jedi agissant contre les intérêts de la République, et après réception d'ordres spécifiques authentifiés comme provenant directement du Commandement en chef (le Chancelier Suprême), les commandants clones de la GAR (Grande Armée de la République) supprimeront ces officiers par usage de la force, et le commandement de la GAR reviendra au Commandant en chef jusqu'à ce qu'une nouvelle structure de commandement soit mise en place.</blockquote>";
 ?>

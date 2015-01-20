@@ -13,6 +13,8 @@ float: right;
 }
 .carousel-caption {
 top: -20px;
+right: 10%;
+left: 10%;
 }
 header {
     color: #474F51;
@@ -37,3 +39,74 @@ background-color: #080808;
 border-color: #fff;
 }
 
+@font-face {
+  font-family: 'Bangers';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bangers'), local('Bangers-Regular'), url(../fonts/bangers.woff2) format('woff2'), url(../fonts/bangers.woff) format('woff');
+}
+
+.underline {
+text-decoration: underline;
+}
+
+h1 a {
+float: left;
+color:  #000;
+padding-top: 5px;
+padding-bottom: 5px;
+font-size: 28pt;
+font-family: "Bangers";
+}
+
+h1 {
+font-family: "Bangers";
+}
+
+h1 + div::first-letter{
+font-family: "Bangers";
+  font-size: 300%; 
+}
+
+.bangers	{
+font-size: 30pt; 
+font-family: "Bangers";
+
+}
+
+.courrier	{
+    font-family: "Courier New";
+}
+
+.fixnav {
+position: fixed;
+}
+
+.aligndroite {
+float: right;
+}
+
+.iconloi {
+position: relative;
+display: inline-block;
+margin: 0 0.75em 0 0.75em;
+text-align: center;
+}
+
+.incenter {
+text-align: center;
+}
+
+blockquote
+{
+  font-style: normal;
+  font-size: 16px;
+  margin-left: 32px;
+  font-family: Georgia, "Times New Roman", serif;
+  border-left: 4px solid #CCC;
+  padding-left: 8px;
+}
+
+a i {
+color: #000;
+}

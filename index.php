@@ -46,7 +46,7 @@ include('navbar.php');
 									<img src="images/servers2.png" class="img-responsive img-rounded" alt="" />
 							</div>
 							<div class="col-xs-12 col-md-6">
-									<p>Romain BOUTINAUD<br/><?echo $home_gmsi; ?> </p>
+									<div class="bangers">Romain BOUTINAUD</div><br/><p class="courrier"><?echo $home_gmsi; ?> </p>
 									<a href="#" class="btn btn-success"><? echo $home_qui; ?></a>
 
 							</div>

@@ -5,10 +5,11 @@
 
 $nav_acc = "Home";
 $nav_pro = "Projects";
-$nav_form = "Learning";
+$nav_comp = "Skills";
 $nav_cv = "CV";
 $nav_loisirs = "Hobbies";
 $nav_lang = "Language";
+$nav_contact = "Contact";
 
 
 //Home
@@ -22,7 +23,7 @@ $pro_enonc = "Exercises (In french)";
 $pro_obj = "Educational goals";
 $pro_group = "Workgroup";
 $pro_note = "Grade";
-$pro_det = '<div><u>A</u> : Goals reached<br/><u>B</u> : Minor error<br><u>C</u> : Significant errors<br/><u>D</u> : Unsufficient (failing grade)';
+$pro_det = '<div><span class=\"underline\">A</span> : Goals reached<br/><span class=\"underline\">B</span> : Minor error<br><span class=\"underline\">C</span> : Significant errors<br/><span class=\"underline\">D</span> : Unsufficient (failing grade)';
 $pro_visu = "Display<br/>(In french)";
 $pro_dl = "Download<br/> (In french)";
 $pro_ferm = "Close";
@@ -58,4 +59,27 @@ $pro_H2_1 = "Meet specifications.";
 $pro_H2_2 = "Stick to a budget.";
 $pro_H2_3 = "Solve a problem.";
 $pro_H2_4 = "Defend the solutions.";
+
+//Contact
+$con_titre = "Contact form";
+$con_nom = "Last name";
+$con_pre = "First name";
+$con_corp = "Corporation";
+$con_mail = "E-Mail";
+$con_sub = "Subject";
+$con_text = "Message";
+$con_btn = "Send";
+
+//Loisirs
+$loi_musT = "Music";
+$loi_musD = "Practicing music since the age of 6,it has always been an important part of my life. Among my favorite styles are jumbled: Classical, Rock(s), Hip Hop, Punk, electronic music.";
+
+$loi_lecT = "Reading";
+$loi_lecD = "Shopping list, dictionary, manual ... All are an excuse to read. My preferences are still to thrillers (<a href=\"http://en.wikipedia.org/wiki/James_Ellroy\" target=\"_blank\">Ellroy</a>, <a href=\"http://en.wikipedia.org/wiki/Michael_Connelly\" target=\"_blank\">Connelly</a>, <a href=\"http://en.wikipedia.org/wiki/Tim_Dorsey\" target=\"_blank\">Dorsey</a>), Science Fiction (<a href=\"http://en.wikipedia.org/wiki/Isaac_Asimov\" target=\"_blank\">Asimov</a>, <a href=\"http://en.wikipedia.org/wiki/Frank_Herbert\" target=\"_blank\">Herbert</a>, <a href=\"http://en.wikipedia.org/wiki/Douglas_Adams\" target=\"_blank\">Adams</a>) and classics (<a href=\"http://en.wikipedia.org/wiki/Alexandre_Dumas\" target=\"_blank\">Dumas</a>, <a href=\"http://en.wikipedia.org/wiki/Albert_Camus\" target=\"_blank\">Camus</a>, <a href=\"http://en.wikipedia.org/wiki/Alphonse_Allais\" target=\"_blank\">Allais</a>).";
+
+$loi_jouT = "Games";
+$loi_jouD = "<h3>Board games</h3>For a few years, I play board games with friends. Some of these games we can mention: \"Les Chevaliers de la Table Ronde\", \"Munchkin\", \"CIA vs KGB\" and other over the purchases.<h3>Video games</h3>I also like video games, especially \"Assassins's Creed\" franchise and Riot's MOBA : \"League of Legends\"";
+
+$loi_empT = "The Empire";
+$loi_empD = "<h3>19 ABY - 4 BBY</h3>Against the corruption and the Jedi conspiracy<br/><br/><blockquote>In the event of Jedi officers acting against the interests of the Republic, and after receiving specific orders verified as coming directly from the Supreme Commander of the Republican Army (Chancellor Palpatine), the army commanders will remove those officers by lethal force, and command of the army will revert to the Supreme Commander until a new command structure is established.</blockquote>";
 ?>

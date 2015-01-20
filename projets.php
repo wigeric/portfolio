@@ -16,7 +16,7 @@
 		<link href="css/theme.css" rel="stylesheet">
 		<link rel="icon" type="image/png" href="images/favicon.png"/>
 <style>
-		
+
 
 		</style>
 <script>
@@ -99,19 +99,38 @@ include("navbar.php");
 </p>
 <br/>
 </div>
-<span style="text-align:left"><a href="#" id="sas">Projet SAS</a></span><span class="aligntextdroite"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalenonSAS"><span class="glyphicon glyphicon-eye-open"></span></button>          
-<a href="PDF/enon_SAS.pdf" target="_blank" download="enonce_projet_SAS.pdf"><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></button></a></span></span><br/><br/>
+<div>
+<h1><span style="text-align:left"><a href="#" id="sas">Projet SAS</a></span></h1>
 
-<span style="text-align:left"><a href="#" id="start">Projet START</a></span><span class="aligntextdroite"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalenonSTART"><span class="glyphicon glyphicon-eye-open"></span></button>          
-<a href="PDF/enon_START.pdf" target="_blank" download="enonce_projet_START.pdf"><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></button></a></span></span><br/><br/>
+<span class="aligndroite">
+<br/>
+<button type="button" class="btn btn-primary btn-xs " data-toggle="modal" data-target="#modalenonSAS"><span class="glyphicon glyphicon-eye-open"></span></button>  
+        
+<a href="PDF/enon_SAS.pdf" target="_blank" download="enonce_projet_SAS.pdf">
+<button type="button" class="btn btn-primary btn-xs "><span class="glyphicon glyphicon-download-alt"></button></a></span></div><br/><br/></span>
 
-<span style="text-align:left"><a href="#" id="evo">Projet EVOLUTION</a></span><span class="aligntextdroite"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalenonEVO"><span class="glyphicon glyphicon-eye-open"></span></button>          
-<a href="PDF/enon_EVO.pdf" target="_blank" download="enonce_projet_EVOLUTION.pdf"><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></button></a></span></span><br/><br/>
 
-<span style="text-align:left"><a href="#" id="cash1">Cas H1</a></span><span class="aligntextdroite"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalenonH1"><span class="glyphicon glyphicon-eye-open"></span></button>          
+<h1><span style="text-align:left"><a href="#" id="start">Projet START</a></span></h1>
+<span class="aligndroite">
+<br/>
+<button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalenonSTART"><span class="glyphicon glyphicon-eye-open"></span></button>          
+<a href="PDF/enon_START.pdf" target="_blank" download="enonce_projet_START.pdf"><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></button></a></span><br/><br/></span>
+
+
+
+<h1><span style="text-align:left"><a href="#" id="evo">Projet EVOLUTION</a></span></h1>
+<span class="aligndroite"><br/>
+<button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalenonEVO"><span class="glyphicon glyphicon-eye-open"></span></button>          
+<a href="PDF/enon_EVO.pdf" target="_blank" download="enonce_projet_EVOLUTION.pdf"><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></button></a></span><br/><br/></span>
+
+
+
+<h1><span style="text-align:left"><a href="#" id="cash1">Cas H1</a></span></h1>
+<span class="aligndroite"><br/><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalenonH1"><span class="glyphicon glyphicon-eye-open"></span></button>          
 <a href="PDF/enon_H1.pdf" target="_blank" download="enonce_projet_H1.pdf"><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></button></a></span></span><br/><br/>
 
-<span style="text-align:left"><a href="#" id="cash2">Cas H2</a></span><span class="aligntextdroite"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalenonH2"><span class="glyphicon glyphicon-eye-open"></span></button>          
+
+<h1><span style="text-align:left"><a href="#" id="cash2">Cas H2</a></span></h1><span class="aligntextdroite"><br/><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalenonH2"><span class="glyphicon glyphicon-eye-open"></span></button>          
 <a href="PDF/enon_H2.pdf" target="_blank" download="enonce_projet_H2.pdf"><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></button></a></span></span><br/><br/>
 </div>
 </div>
@@ -120,7 +139,7 @@ include("navbar.php");
 <div class="col-lg-8 col-sm-8 col-xs-12">
 <div style="text-align:center;">		
 	   <div class="btn-group">
-      <input type="button" id="slide-one" class="btn btn-primary btn-lg" value="SAS">
+      <input type="button" id="slide-one" class="btn btn-primary btn-lg" value="SAS" width="10%">
       <input type="button" id="slide-two" class="btn btn-primary btn-lg" value="START">            
       <input type="button" id="slide-three" class="btn btn-primary btn-lg" value="EVOLUTION">
       <input type="button" id="slide-four" class="btn btn-primary btn-lg" value="H 1ère partie">
@@ -151,7 +170,7 @@ include("navbar.php");
 			BOUTINAUD Romain<br/>
 			LAMONZIE Yvan
 			<h3><? echo $pro_note; ?></h3>
-			<span data-container="body" data-toggle="popover" data-placement="left" data-trigger="hover">A</span><br/><br/><br/>
+			<span data-container="body" data-toggle="popover" data-placement="left" data-trigger="hover">A</span><br/><br/>
 			<center>
 			<table><tr><td>
               <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalSAS"><?echo $pro_visu; ?></button>   </td><td>         
@@ -182,7 +201,7 @@ include("navbar.php");
 			BOUTINAUD Romain<br/>
 			FORTAGE Williams
 			<h3><?echo $pro_note;?></h3>
-			<span data-container="body" data-toggle="popover" data-placement="left" data-trigger="hover">A</span><br/><br/><br/>
+			<span data-container="body" data-toggle="popover" data-placement="left" data-trigger="hover">A</span><br/><br/>
 			<center>
 			
 			<table><tr><td>
@@ -216,7 +235,7 @@ include("navbar.php");
 			BOUTINAUD Romain<br/>
 			JODAR Mathieu
 			<h3><?echo $pro_note;?></h3>
-			<span data-container="body" data-toggle="popover" data-placement="left" data-trigger="hover">A</span><br/><br/><br/>
+			<span data-container="body" data-toggle="popover" data-placement="left" data-trigger="hover">A</span><br/><br/>
 			<center>
 			<table><tr><td>
               <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalEVO"><?echo $pro_visu;?></button>   </td><td>         
@@ -244,7 +263,7 @@ include("navbar.php");
 			COMERES David<br/>
 			LAMONZIE Yvan
 			<h3><?echo $pro_note;?></h3>
-			<span data-container="body" data-toggle="popover" data-placement="left" data-trigger="hover">A</span><br/><br/><br/>
+			<span data-container="body" data-toggle="popover" data-placement="left" data-trigger="hover">A</span><br/><br/>
 			<center>
 			<table><tr><td>
               <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalH1"><?echo $pro_visu;?></button>   </td><td>         
@@ -273,7 +292,7 @@ include("navbar.php");
 			COMERES David<br/>
 			LAMONZIE Yvan
 			<h3><?echo $pro_note;?></h3>
-			<span data-container="body" data-toggle="popover" data-placement="left" data-trigger="hover">A</span><br/><br/><br/>
+			<span data-container="body" data-toggle="popover" data-placement="left" data-trigger="hover">A</span><br/><br/>
 			<center>
 			<table><tr><td>
               <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalH2"><?echo $pro_visu;?></button>   </td><td>         
@@ -484,7 +503,6 @@ include("navbar.php");
 																		
 
 							</div>
-						</div>
 					</div>
 				</div>
 			</div>
