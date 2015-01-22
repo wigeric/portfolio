@@ -36,7 +36,7 @@ $pro_SAS_4 = "Being able to design a summary document, communicate and defend th
 #START
 $pro_START_1 = "Master the installation, configuration, administration,  optimization and maintenance of an operating system in a \"Windows\" proprietary environment.";
 $pro_START_2 = "Master the installation, configuration, administration,  optimization and maintenance of an open source \"linux\" operating system.";
-$pro_START_3 = "Mastering the use of a mastering and deployment software.";
+$pro_START_3 = "Mastering the use of a clone, backup and deployment software.";
 $pro_START_4 = "Mastering the functioning of Local Area Networks (wiring, LAN, TCP/IP, protocols, addressing scheme).";
 $pro_START_5 = "Being able to install and configure applications (office, antivirus, business application, ...).";
 $pro_START_6 = "Being able to maintain and troubleshoot workstation systems.";
@@ -82,4 +82,26 @@ $loi_jouD = "<h3>Board games</h3>For a few years, I play board games with friend
 
 $loi_empT = "The Empire";
 $loi_empD = "<h3>19 ABY - 4 BBY</h3>Against the corruption and the Jedi conspiracy<br/><br/><blockquote>In the event of Jedi officers acting against the interests of the Republic, and after receiving specific orders verified as coming directly from the Supreme Commander of the Republican Army (Chancellor Palpatine), the army commanders will remove those officers by lethal force, and command of the army will revert to the Supreme Commander until a new command structure is established.</blockquote>";
+
+//CV
+
+$cv_ann = "Years";
+$cv_tra = "Work";
+$cv_for = "Academic achievement";
+$cv_2015_t = "<span class=\"gras\">IT Technician</span><br/><span class=\"ital\"><a href=\"https://www.france-securite.fr\" target=\"_blank\">France Sécurité, Blanquefort</a></span><br/><span class=\"underline\">Tasks</span> :<ul><li>Assistant to System and Network Administrator</li><li>Project management</li><li>Server room manager</li><li>Manager for RDP system update</li><li>Level 1 hotline</li></ul>";
+$cv_2015_f = "<span class=\"gras\">Titre <a href=\"http://www.rncp.cncp.gouv.fr/grand-public/visualisationFiche?format=fr&fiche=13374\" target=\"_blank\">RNCP</a> niveau III (Bac +2)</span><br/><a href=\"http://www.cesi-alternance.fr/formation/informatique/inftsmsi-gestionnaire_en_maintenance_et_support_informatique\" target=\"_blank\">Gestionnaire en maintenance et support informatique</a>
+work-study program<br/><span class=\"ital\">CESI Blanquefort</span>";
+$cv_2013 = "<span class=\"gras\">After sales counselor</span><br/><span class=\"ital\">Darty, Bordeaux</span>";
+$cv_2012 = "<span class=\"gras\">Insurance telemarketer</span><br/><span class=\"ital\">Teleperformance, Bordeaux</span>";
+$cv_2011 = "<span class=\"gras\">Inventory manager</span><br/><span class=\"ital\">RGIS, Pessac</span>";
+$cv_2006 = "<span class=\"gras\">Baccalauréat Littéraire</span><br/><span class=\"ital\">option Anglais renforcé</span>";
+
+//Compétences
+$comp_des = "Scale from 0 to 10<br/><span class=\"gras\">0</span> : Never heard of<br/><span class=\"gras\">10</span> : Expert";
+
+$comp_lin = "LAMP, Cron, CENTREON Monitoring";
+$comp_ana_T = "Functional analysis ";
+$comp_ana_D = "Create / understand a functional analysis";
+$comp_ang_T = "English";
+$comp_ang_D = "Capabilities of communication";
 ?>

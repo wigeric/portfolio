@@ -1,7 +1,11 @@
 body {
 background: url("images/bg02.jpg") repeat scroll 0% 0% #353D40; 
 }		
-		
+
+.gras {
+font-weight: bold;
+}
+
 .navbar-inverse	{
 border-color: #fff;
 }
@@ -48,6 +52,10 @@ border-color: #fff;
 
 .underline {
 text-decoration: underline;
+}
+
+.ital {
+font-style: italic;
 }
 
 h1 a {

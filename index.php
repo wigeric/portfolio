@@ -47,7 +47,7 @@ include('navbar.php');
 							</div>
 							<div class="col-xs-12 col-md-6">
 									<div class="bangers">Romain BOUTINAUD</div><br/><p class="courrier"><?echo $home_gmsi; ?> </p>
-									<a href="#" class="btn btn-success"><? echo $home_qui; ?></a>
+									<!--<a href="#" class="btn btn-success"><?// echo $home_qui; ?></a>-->
 
 							</div>
 						</div>
