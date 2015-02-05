@@ -21,12 +21,12 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="index.php"><?php echo $nav_acc; ?></a></li>
-        <li><a href="projets.php"><? echo $nav_pro; ?> </a></li>
-        <li><a href="competences.php"><? echo $nav_comp; ?></a></li>
-        <li><a href="cv.php"><? echo $nav_cv; ?></a></li>
-        <li><a href="loisirs.php"><? echo $nav_loisirs ?></a></li>
-        <li><a href="contact.php"><? echo $nav_contact ?></a></li>
+        <li><a target="_self" href="index.php"><?php echo $nav_acc; ?></a></li>
+        <li><a target="_self" href="projets.php"><? echo $nav_pro; ?></a></li>
+        <li><a target="_self" href="competences.php"><? echo $nav_comp; ?></a></li>
+        <li><a target="_self" href="cv.php"><? echo $nav_cv; ?></a></li>
+        <li><a target="_self" href="loisirs.php"><? echo $nav_loisirs ?></a></li>
+        <li><a target="_self" href="contact.php"><? echo $nav_contact ?></a></li>
 		
       </ul>
 	  <ul class="nav navbar-nav navbar-right">

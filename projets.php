@@ -8,7 +8,6 @@
 		<meta name="keywords" content="" />
 		<script src="js/jquery.min.js"></script>
 
-		<script src="js/init.js"></script>
 		<script src="js/jquery-2.1.3.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<link href="css/carousel.css" rel="stylesheet">
@@ -87,7 +86,7 @@ include("navbar.php");
 				<div id="content">
 					<div class="container">
 						<div class="row">
-							<div class="col-lg-4 col-sm-4 col-xs-12">
+							<div class="col-lg-4 col-xs-12">
 										<section>
 <div class="well well-sm">
 	   <div style="text-align:center;">
@@ -100,7 +99,7 @@ include("navbar.php");
 <br/>
 </div>
 <div>
-<h1><span style="text-align:left"><a href="#" id="sas">Projet SAS</a></span></h1>
+<h1><span style="text-align:left"><a target="_self" href="#" id="sas">Projet SAS</a></span></h1>
 
 <span class="aligndroite">
 <br/>
@@ -110,7 +109,7 @@ include("navbar.php");
 <button type="button" class="btn btn-primary btn-xs "><span class="glyphicon glyphicon-download-alt"></button></a></span></div><br/><br/></span>
 
 
-<h1><span style="text-align:left"><a href="#" id="start">Projet START</a></span></h1>
+<h1><span style="text-align:left"><a target="_self" href="#" id="start">Projet START</a></span></h1>
 <span class="aligndroite">
 <br/>
 <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalenonSTART"><span class="glyphicon glyphicon-eye-open"></span></button>          
@@ -118,25 +117,25 @@ include("navbar.php");
 
 
 
-<h1><span style="text-align:left"><a href="#" id="evo">Projet EVOLUTION</a></span></h1>
+<h1><span style="text-align:left"><a target="_self" href="#" id="evo">Projet EVOLUTION</a></span></h1>
 <span class="aligndroite"><br/>
 <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalenonEVO"><span class="glyphicon glyphicon-eye-open"></span></button>          
 <a href="PDF/enon_EVO.pdf" target="_blank" download="enonce_projet_EVOLUTION.pdf"><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></button></a></span><br/><br/></span>
 
 
 
-<h1><span style="text-align:left"><a href="#" id="cash1">Cas H1</a></span></h1>
+<h1><span style="text-align:left"><a target="_self" href="#" id="cash1">Cas H1</a></span></h1>
 <span class="aligndroite"><br/><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalenonH1"><span class="glyphicon glyphicon-eye-open"></span></button>          
 <a href="PDF/enon_H1.pdf" target="_blank" download="enonce_projet_H1.pdf"><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></button></a></span></span><br/><br/>
 
 
-<h1><span style="text-align:left"><a href="#" id="cash2">Cas H2</a></span></h1><span class="aligntextdroite"><br/><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalenonH2"><span class="glyphicon glyphicon-eye-open"></span></button>          
+<h1><span style="text-align:left"><a target="_self" href="#" id="cash2">Cas H2</a></span></h1><span class="aligntextdroite"><br/><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalenonH2"><span class="glyphicon glyphicon-eye-open"></span></button>          
 <a href="PDF/enon_H2.pdf" target="_blank" download="enonce_projet_H2.pdf"><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></button></a></span></span><br/><br/>
 </div>
 </div>
 
 
-<div class="col-lg-8 col-sm-8 col-xs-12">
+<div class="col-lg-8 col-xs-12">
 <div style="text-align:center;">		
 	   <div class="btn-group">
       <input type="button" id="slide-one" class="btn btn-primary btn-lg" value="SAS" width="10%">
@@ -524,7 +523,7 @@ $(function () {
 
 
 <script>
-var visua = "<? echo $pro_visua ?>";
+var visu = "<? echo $pro_visu ?>";
 $(function () {
   $('[data-toggle="visu"]').popover({
   html : true, 
@@ -539,7 +538,7 @@ $(function () {
   $('[data-toggle="dl"]').popover({
   html : true, 
   placement : 'right',
-  content : dlw
+  content : dwl
   });
 });
 </script>

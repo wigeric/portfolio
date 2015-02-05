@@ -8,7 +8,6 @@
 		<meta name="keywords" content="" />
 		<script src="js/jquery.min.js"></script>
 
-		<script src="js/init.js"></script>
 		<script src="js/jquery-2.1.3.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<link href="css/carousel.css" rel="stylesheet">

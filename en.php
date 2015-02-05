@@ -24,7 +24,7 @@ $pro_obj = "Educational goals";
 $pro_group = "Workgroup";
 $pro_note = "Grade";
 $pro_det = '<div><span class=\"underline\">A</span> : Goals reached<br/><span class=\"underline\">B</span> : Minor error<br><span class=\"underline\">C</span> : Significant errors<br/><span class=\"underline\">D</span> : Unsufficient (failing grade)';
-$pro_visu = "Display<br/>(In french)";
+$pro_visu = "Display<br/> (In french)";
 $pro_dl = "Download<br/> (In french)";
 $pro_ferm = "Close";
 

@@ -8,7 +8,7 @@
 		<meta name="keywords" content="" />
 		<script src="js/jquery.min.js"></script>
 
-		<script src="js/init.js"></script>
+
 		<script src="js/jquery-2.1.3.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<link href="css/carousel.css" rel="stylesheet">
@@ -26,14 +26,7 @@ text-align: center;
 font-family: "Bangers";
 }
 
-h1 a {
-float: left;
-color:  #000;
-padding-top: 5px;
-padding-bottom: 5px;
-font-size: 28pt;
-font-family: "Bangers";
-}
+
 	</style>
 
 	</head>
@@ -62,19 +55,19 @@ include('navbar.php');
 <div class="container">
 <div class="visible-xs-inline col-xs-12 well incenter">
 
-<a href="#musique" target="_self"><i class="fa fa-music fa-3x iconloi"></i></a>
-<a href="#lecture" target="_self"><i class="fa fa-book fa-3x iconloi"></i></a>
-<a href="#jouer" target="_self"><i class="fa fa-gamepad fa-3x iconloi"></i></a>
-<a href="#empire" target="_self"><i class="fa fa-empire fa-3x iconloi"></i></a>
+<a href="#musique"><i class="fa fa-music fa-3x iconloi"></i></a>
+<a href="#lecture"><i class="fa fa-book fa-3x iconloi"></i></a>
+<a href="#jouer"><i class="fa fa-gamepad fa-3x iconloi"></i></a>
+<a href="#empire"><i class="fa fa-empire fa-3x iconloi"></i></a>
 
 </div>
 <div class="hidden-xs col-sm-3 col-md-3 col-lg-3 ">
 </div>
 <div class="hidden-xs col-sm-2 col-md-2 col-lg-2 well fixnav">
-<span><h1><a href="#musique"><? echo $loi_musT;?></a></h1></span>
+<span><h1><a target="_self" href="#musique"><? echo $loi_musT;?></a></h1></span>
 <br/><br/>
-<span><h1><a href="#lecture"><? echo $loi_lecT;?></a></h1></span><br/><br/>
-<span><h1><a href="#jouer"><? echo $loi_jouT;?></a></h1></span><br/><br/>
+<span><h1><a target="_self" href="#lecture"><? echo $loi_lecT;?></a></h1></span><br/><br/>
+<span><h1><a target="_self" href="#jouer"><? echo $loi_jouT;?></a></h1></span><br/><br/>
 </div>
 
 <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">

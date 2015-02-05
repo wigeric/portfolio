@@ -63,12 +63,13 @@ float: left;
 color:  #000;
 padding-top: 5px;
 padding-bottom: 5px;
-font-size: 28pt;
-font-family: "Bangers";
+font-size: 20pt;
+font-family: "Courier New";
+font-weight:bold;
 }
 
 h1 {
-font-family: "Bangers";
+font-family: "Courier New";
 }
 
 h1 + div::first-letter{
@@ -117,4 +118,30 @@ blockquote
 
 a i {
 color: #000;
+}
+
+a[target="_self"]:after {
+font-weight: 500;
+content: "_";
+  animation: blink 1s step-start 0s infinite;
+  -webkit-animation: blink 1s step-start 0s infinite;
+font-family: "Courier New";
+font-weight:"none";
+
+}
+
+@keyframes blink {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+
+li a {
+font-size: 2vmin;
 }
