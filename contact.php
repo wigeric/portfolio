@@ -4,8 +4,10 @@
 	<head>
 		<title>Contact</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
+		<meta name="description" content="Formulaire de contact" />
+		<meta name="keywords" content="contact" />
+		<meta name="author" content="Romain Boutinaud" />
+		
 		<script src="js/jquery.min.js"></script>
 
 		<script src="js/jquery-2.1.3.min.js"></script>
@@ -113,4 +115,5 @@ include('navbar.php');
 
 
 	</body>
+	<?include('footer.php');?>
 </html>

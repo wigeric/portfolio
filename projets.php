@@ -4,8 +4,9 @@
 	<head>
 		<title>Projets</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
+		<meta name="description" content="Liste de mes projets au CESI" />
+		<meta name="keywords" content="CESI GMSI projets" />
+		<meta name="author" content="Romain Boutinaud" />
 		<script src="js/jquery.min.js"></script>
 
 		<script src="js/jquery-2.1.3.min.js"></script>
@@ -94,10 +95,12 @@ include("navbar.php");
 <p>
 <h1><? echo $nav_pro; ?></h1>
 <? echo $pro_intro; ?><br/><br/>
-<h4> <? echo $pro_enonc; ?></h4>
-</p>
-<br/>
+<span></span></p></div>
+<div style="text-align:right">
+<span class="aligndoite"><h4> <? echo $pro_enonc; ?></h4></span>
 </div>
+
+
 <div>
 <h1><span style="text-align:left"><a target="_self" href="#" id="sas">Projet SAS</a></span></h1>
 
@@ -136,15 +139,7 @@ include("navbar.php");
 
 
 <div class="col-lg-8 col-xs-12">
-<div style="text-align:center;">		
-	   <div class="btn-group">
-      <input type="button" id="slide-one" class="btn btn-primary btn-lg" value="SAS" width="10%">
-      <input type="button" id="slide-two" class="btn btn-primary btn-lg" value="START">            
-      <input type="button" id="slide-three" class="btn btn-primary btn-lg" value="EVOLUTION">
-      <input type="button" id="slide-four" class="btn btn-primary btn-lg" value="H 1ère partie">
-      <input type="button" id="slide-five" class="btn btn-primary btn-lg" value="H 2nde partie">
-	  </div>
-	  </div>
+
    
 	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
 	
@@ -542,4 +537,5 @@ $(function () {
   });
 });
 </script>
+<?include('footer.php');?>
 </html>

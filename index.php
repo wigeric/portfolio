@@ -4,8 +4,9 @@
 	<head>
 		<title>Accueil</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
+		<meta name="description" content="Accueil de mon portfolio" />
+		<meta name="keywords" content="Accueil boutinaud portfolio" />
+		<meta name="author" content="Romain Boutinaud" />
 		<script src="js/jquery.min.js"></script>
 
 		<script src="js/jquery-2.1.3.min.js"></script>
@@ -46,6 +47,7 @@ include('navbar.php');
 							</div>
 							<div class="col-xs-12 col-md-6">
 									<div class="bangers">Romain BOUTINAUD</div><br/><p class="courrier"><?echo $home_gmsi; ?> </p>
+
 									<!--<a href="#" class="btn btn-success"><?// echo $home_qui; ?></a>-->
 
 							</div>
@@ -58,4 +60,5 @@ include('navbar.php');
 
 
 	</body>
+<?include('footer.php');?>
 </html>

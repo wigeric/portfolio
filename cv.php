@@ -4,8 +4,10 @@
 	<head>
 		<title>CV</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
+		<meta name="description" content="Résumé de mes formations et expériences professionnelles." />
+		<meta name="keywords" content="CV expérience formation" />
+		<meta name="author" content="Romain Boutinaud" />
+		
 		<script src="js/jquery.min.js"></script>
 
 		<script src="js/jquery-2.1.3.min.js"></script>
@@ -68,7 +70,7 @@ else
 <div class="row">
 <div class="col-lg-12 jumbotron ">
 <table class="table table-striped table-hover table-bordered">
-<tr><th><? echo $cv_ann; ?></th><th><? echo $cv_tra; ?></th><th><? echo $cv_for; ?></th></tr>
+<tr><th class="incenter"><? echo $cv_ann; ?></th><th class="incenter"><? echo $cv_tra; ?></th><th class="incenter"><? echo $cv_for; ?></th></tr>
 <tr><th>2013-2015</th><td><? echo $cv_2015_t ;?></td><td><? echo $cv_2015_f; ?></td></tr>
 <tr><th>2012-2013</th><td><? echo $cv_2013 ;?></td><td></td></tr>
 <tr><th>2012</th><td><? echo $cv_2012 ;?></td><td></td></tr>
@@ -118,4 +120,5 @@ else
 <!--- end modal CV-->
 
 	</body>
+	<?include('footer.php');?>
 </html>

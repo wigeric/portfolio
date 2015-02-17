@@ -20,7 +20,15 @@ text-decoration: inherit;
 /* For safety - reset parent styles, that can break glyph codes*/
 font-variant: normal;
 text-transform: none;
+color:#fff;
 }
+
+.icon-info-circled:hover {
+color:#000;
+}
+
+
+
 .icon-info-circled:before {
 content: '\e800';
 } /* '' */

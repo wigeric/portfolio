@@ -4,8 +4,10 @@
 	<head>
 		<title>Loisirs</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
+		<meta name="description" content="Page recensent mes loisirs" />
+		<meta name="keywords" content="loisirs hobbies" />
+		<meta name="author" content="Romain Boutinaud" />
+		
 		<script src="js/jquery.min.js"></script>
 
 
@@ -96,4 +98,5 @@ include('navbar.php');
 
 </div>
 	</body>
+	<?include('footer.php');?>
 </html>

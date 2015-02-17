@@ -10,6 +10,7 @@ $nav_cv = "CV";
 $nav_loisirs = "Hobbies";
 $nav_lang = "Language";
 $nav_contact = "Contact";
+$nav_lien = "Links";
 
 
 //Home
@@ -19,7 +20,7 @@ $home_qui = "Who am I ?";
 
 //Projet
 $pro_intro = "You shall find here every project I had to do during my learning in CESI Bordeaux.";
-$pro_enonc = "Exercises (In french)";
+$pro_enonc = "Exercises<br/>(In french)";
 $pro_obj = "Educational goals";
 $pro_group = "Workgroup";
 $pro_note = "Grade";
@@ -61,7 +62,7 @@ $pro_H2_3 = "Solve a problem.";
 $pro_H2_4 = "Defend the solutions.";
 
 //Contact
-$con_titre = "Contact form";
+$con_titre = "Contact me";
 $con_nom = "Last name";
 $con_pre = "First name";
 $con_corp = "Corporation";
@@ -75,7 +76,7 @@ $loi_musT = "Music";
 $loi_musD = "Practicing music since the age of 6,it has always been an important part of my life. Among my favorite styles are jumbled: Classical, Rock(s), Hip Hop, Punk, electronic music.";
 
 $loi_lecT = "Reading";
-$loi_lecD = "Shopping list, dictionary, manual ... All are an excuse to read. My preferences are still to thrillers (<a href=\"http://en.wikipedia.org/wiki/James_Ellroy\" target=\"_blank\">Ellroy</a>, <a href=\"http://en.wikipedia.org/wiki/Michael_Connelly\" target=\"_blank\">Connelly</a>, <a href=\"http://en.wikipedia.org/wiki/Tim_Dorsey\" target=\"_blank\">Dorsey</a>), Science Fiction (<a href=\"http://en.wikipedia.org/wiki/Isaac_Asimov\" target=\"_blank\">Asimov</a>, <a href=\"http://en.wikipedia.org/wiki/Frank_Herbert\" target=\"_blank\">Herbert</a>, <a href=\"http://en.wikipedia.org/wiki/Douglas_Adams\" target=\"_blank\">Adams</a>) and classics (<a href=\"http://en.wikipedia.org/wiki/Alexandre_Dumas\" target=\"_blank\">Dumas</a>, <a href=\"http://en.wikipedia.org/wiki/Albert_Camus\" target=\"_blank\">Camus</a>, <a href=\"http://en.wikipedia.org/wiki/Alphonse_Allais\" target=\"_blank\">Allais</a>).";
+$loi_lecD = "Shopping list, dictionary, manual ... All are an excuse to read. My preferences are still to thrillers (<a class=\"lienext\" href=\"http://en.wikipedia.org/wiki/James_Ellroy\" target=\"_blank\">Ellroy</a>, <a class=\"lienext\" href=\"http://en.wikipedia.org/wiki/Michael_Connelly\" target=\"_blank\">Connelly</a>, <a class=\"lienext\" href=\"http://en.wikipedia.org/wiki/Tim_Dorsey\" target=\"_blank\">Dorsey</a>), Science Fiction (<a class=\"lienext\" href=\"http://en.wikipedia.org/wiki/Isaac_Asimov\" target=\"_blank\">Asimov</a>, <a class=\"lienext\" href=\"http://en.wikipedia.org/wiki/Frank_Herbert\" target=\"_blank\">Herbert</a>, <a class=\"lienext\" href=\"http://en.wikipedia.org/wiki/Douglas_Adams\" target=\"_blank\">Adams</a>) and classics (<a class=\"lienext\" href=\"http://en.wikipedia.org/wiki/Alexandre_Dumas\" target=\"_blank\">Dumas</a>, <a class=\"lienext\" href=\"http://en.wikipedia.org/wiki/Albert_Camus\" target=\"_blank\">Camus</a>, <a class=\"lienext\" href=\"http://en.wikipedia.org/wiki/Alphonse_Allais\" target=\"_blank\">Allais</a>).";
 
 $loi_jouT = "Games";
 $loi_jouD = "<h3>Board games</h3>For a few years, I play board games with friends. Some of these games we can mention: \"Les Chevaliers de la Table Ronde\", \"Munchkin\", \"CIA vs KGB\" and other over the purchases.<h3>Video games</h3>I also like video games, especially \"Assassins's Creed\" franchise and Riot's MOBA : \"League of Legends\"";
@@ -88,20 +89,21 @@ $loi_empD = "<h3>19 ABY - 4 BBY</h3>Against the corruption and the Jedi conspira
 $cv_ann = "Years";
 $cv_tra = "Work";
 $cv_for = "Academic achievement";
-$cv_2015_t = "<span class=\"gras\">IT Technician</span><br/><span class=\"ital\"><a href=\"https://www.france-securite.fr\" target=\"_blank\">France Sécurité, Blanquefort</a></span><br/><span class=\"underline\">Tasks</span> :<ul><li>Assistant to System and Network Administrator</li><li>Project management</li><li>Server room manager</li><li>Manager for RDP system update</li><li>Level 1 hotline</li></ul>";
-$cv_2015_f = "<span class=\"gras\">Titre <a href=\"http://www.rncp.cncp.gouv.fr/grand-public/visualisationFiche?format=fr&fiche=13374\" target=\"_blank\">RNCP</a> niveau III (Bac +2)</span><br/><a href=\"http://www.cesi-alternance.fr/formation/informatique/inftsmsi-gestionnaire_en_maintenance_et_support_informatique\" target=\"_blank\">Gestionnaire en maintenance et support informatique</a>
-work-study program<br/><span class=\"ital\">CESI Blanquefort</span>";
+$cv_2015_t = "<span class=\"gras\">IT Technician</span><br/><a class=\"lienext\" href=\"https://www.france-securite.fr\" target=\"_blank\">France Sécurité, Blanquefort</a><br/><span class=\"underline\">Tasks</span> :<ul><li>Assistant to System and Network Administrator</li><li>Project management</li><li>Server room manager</li><li>Manager for RDP system update</li><li>Level 1 hotline</li></ul>";
+$cv_2015_f = "<span class=\"gras\">Titre <a class=\"lienext\" href=\"http://www.rncp.cncp.gouv.fr/grand-public/visualisationFiche?format=fr&fiche=13374\" target=\"_blank\">RNCP</a> niveau III (Bac +2)</span><br/><a class=\"lienext\" href=\"http://www.cesi-alternance.fr/formation/informatique/inftsmsi-gestionnaire_en_maintenance_et_support_informatique\" target=\"_blank\">Gestionnaire en maintenance et support informatique</a><br/>
+work-study program<br/><br/><span class=\"ital\">CESI Blanquefort</span>";
 $cv_2013 = "<span class=\"gras\">After sales counselor</span><br/><span class=\"ital\">Darty, Bordeaux</span>";
 $cv_2012 = "<span class=\"gras\">Insurance telemarketer</span><br/><span class=\"ital\">Teleperformance, Bordeaux</span>";
 $cv_2011 = "<span class=\"gras\">Inventory manager</span><br/><span class=\"ital\">RGIS, Pessac</span>";
 $cv_2006 = "<span class=\"gras\">Baccalauréat Littéraire</span><br/><span class=\"ital\">option Anglais renforcé</span>";
 
 //Compétences
-$comp_des = "Scale from 0 to 10<br/><span class=\"gras\">0</span> : Never heard of<br/><span class=\"gras\">10</span> : Expert";
+$comp_des = "Scale from 0 to 10<br/><span class=\"gras\">0</span> : Never heard of<br/><span class=\"gras\">5</span> : Ever used<br/><span class=\"gras\">10</span> : Expert";
 
 $comp_lin = "LAMP, Cron, CENTREON Monitoring";
 $comp_ana_T = "Functional analysis ";
 $comp_ana_D = "Create / understand a functional analysis";
 $comp_ang_T = "English";
 $comp_ang_D = "Capabilities of communication";
+$comp_pres = "An assessment of the skills acquired during my training and my career.";
 ?>

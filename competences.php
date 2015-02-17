@@ -2,10 +2,11 @@
 
 <html>
 	<head>
-		<title>Formation</title>
+		<title>Compétences</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
+		<meta name="description" content="Liste de mes compétences" />
+		<meta name="keywords" content="compétences expérience maitrise server" />
+		<meta name="author" content="Romain Boutinaud" />
 		<script src="js/jquery.min.js"></script>
 
 		<script src="js/jquery-2.1.3.min.js"></script>
@@ -23,6 +24,10 @@
 
 body {
 color: #fff;
+}
+
+.jumbotron {
+	color : #000;
 }
 	</style>
 
@@ -46,15 +51,22 @@ $page = basename($_SERVER['PHP_SELF']);
 include('navbar.php');
 ?>
 <div class="container">
-
+<div class="row">
 <div class="col-xs-2 col-lg-2"></div>
-<div class="col-xs-8 col-lg-8">
+<div class="col-xs-4 col-lg-4">
 <h1><? echo $nav_comp; ?></h1><br/>
-<? echo $comp_des;?><br/><br/><br/>
-<div id="skillset"> </div></div>
-<div class="col-xs-2 col-lg-2"></div>
+<? echo $comp_des;?><br/><br/><br/></div>
+<div class="col-xs-4 col-lg-4">
+<div class="jumbotron"><? echo $comp_pres;?></div>
 </div>
+</div>
+<div class="row">
+<div class="col-xs-2 col-lg-2"></div>
+<div  class="col-xs-8 col-lg-8" id="skillset"></div>
+<div class="col-xs-2 col-lg-2"></div>
+</div></div>
 	</body>
+	<?include('footer.php');?>
 	<script type="text/javascript">
 
 var detaillin = "<? echo $comp_lin; ?>"; 

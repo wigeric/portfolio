@@ -30,6 +30,7 @@
 		
       </ul>
 	  <ul class="nav navbar-nav navbar-right">
+	  <li><a target="_self" href="liens.php"><? echo $nav_lien ?></a></li>
 	          <li class="dropdown">
           <a href="projets.php" class="dropdown-toggle" data-toggle="dropdown" data-trigger="hover" role="button" aria-expanded="false"><?php echo $nav_lang; ?><span class="caret"></span></a>
 	  <ul class="dropdown-menu dropdown-dark" role="menu">
@@ -41,17 +42,6 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-							<!-- Logo -->
-								<!-- <h1><a href="#" id="logo">Portfolio</a></h1> -->
-							
-							<!-- Nav -->
-						<!-- 		<nav id="nav" class="navbar-collapse collape navbar-responsive-collapse">
-									<a href="index.php">Homepage</a>
-									<a href="threecolumn.html">Three Column</a>
-									<a href="twocolumn1.html">Two Column #1</a>
-									<a href="projets.php">Projets GMSI</a>
-									<a href="onecolumn.html">One Column</a>
-								</nav> -->
 
 						</div>
 					</div>

@@ -68,14 +68,17 @@ font-family: "Courier New";
 font-weight:bold;
 }
 
+h1 a:hover {
+text-decoration: inherit;
+color: #333;
+}
+
+
 h1 {
 font-family: "Bangers";
 }
 
-h1 + div::first-letter{
-font-family: "Bangers";
-  font-size: 300%; 
-}
+
 
 .bangers	{
 font-size: 30pt; 
@@ -123,12 +126,47 @@ color: #000;
 a[target="_self"]:after {
 font-weight: 500;
 content: "_";
-  animation: blink 1s step-start 0s infinite;
-  -webkit-animation: blink 1s step-start 0s infinite;
+  animation: blink 6s step-start 0s infinite;
+  -webkit-animation: blink 6s step-start 0s infinite;
+font-family: "Courier New";
+font-weight:bold;
+}
+
+.lienext{
+font-family: "Courier New";
+color:inherit;
+}
+
+.linkext{
+font-family: "Courier New";
+color:inherit;
+font-size: 1.5em;
+color: #fff;
+background-color: #000;
+}
+
+.linkext:hover{
+text-decoration: none;
+color: #333;
+}
+
+.divblack {
+background-color: #000;
+border: 1px solid;
+border-radius: 10px; 
+border-color: #EEE;
+}
+
+.lienext:after {
+font-weight: 500;
+content: ">";
+  animation: blink 4s step-start 0s infinite;
+  -webkit-animation: blink 4s step-start 0s infinite;
 font-family: "Courier New";
 font-weight:"none";
-
 }
+
+
 
 @keyframes blink {  
   0% { opacity: 1.0; }
@@ -143,5 +181,34 @@ font-weight:"none";
 
 
 li a {
-font-size: 2vmin;
+font-size: 0.9em;
 }
+
+.skillset-list li .bar .full {
+height: 20px !important;
+}
+
+.skillset-list li .bar .empty {
+height: 20px !important;
+}
+
+.classfoo{
+	background-color: #EEEEEE;
+    position: fixed;
+    z-index: 100; 
+    bottom: 0px; 
+    left: 0;
+    width: 100%;
+	opacity:0.2;
+}
+
+.classfoo:hover{
+	opacity:1;
+}
+
+a:active {
+color:#ff0000;
+text-decoration: underline;
+}
+
+

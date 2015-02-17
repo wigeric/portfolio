@@ -48,4 +48,5 @@ include('navbar.php');
 
 
 	</body>
+	<?include('footer.php');?>
 </html>
