@@ -63,7 +63,7 @@ include('navbar.php');
 <div class="col-lg-5 col-xs-12 divblack"><a href="http://rudyremy.esy.es" class="linkext" target="_blank">Rudy REMY </a></div></div><br/>
 
 <div class="row">
-<div class="col-lg-5 col-xs-12 divblack"><a href="http:www.vsanroma.zz.mu" class="linkext" target="_blank">Vincent SANROMA </a></div></div><br/>
+<div class="col-lg-5 col-xs-12 divblack"><a href="http://www.vsanroma.zz.mu" class="linkext" target="_blank">Vincent SANROMA </a></div></div><br/>
 
 <div class="row">
 <div class="col-lg-5 col-xs-12 divblack"><a href="http://vincendeauro.com" class="linkext" target="_blank">Romain VINCENDEAU </a></div></div><br/>

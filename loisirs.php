@@ -88,7 +88,7 @@ include('navbar.php');
 
 <!-- Empire -->
 <div id="empire" class="well well-sm visible-xs-block">
-<h1> <? echo $loi_empT;?></h1><div><? echo $loi_empD; ?></div>
+<h1 class="starwars"> <? echo $loi_empT;?></h1><div><? echo $loi_empD; ?></div>
 </div>
 
 

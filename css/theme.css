@@ -50,6 +50,17 @@ border-color: #fff;
   src: local('Bangers'), local('Bangers-Regular'), url(../fonts/bangers.woff2) format('woff2'), url(../fonts/bangers.woff) format('woff');
 }
 
+@font-face {
+  font-family: 'Starjedi';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Starjedi'), url(../fonts/Starjedi.woff) format('woff');
+}
+
+.starwars {
+font-family: 'Starjedi';
+}
+
 .underline {
 text-decoration: underline;
 }
@@ -205,6 +216,8 @@ height: 20px !important;
 .classfoo:hover{
 	opacity:1;
 }
+
+
 
 a:active {
 color:#ff0000;

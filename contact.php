@@ -53,34 +53,48 @@ else
 include($locale);
 $page = basename($_SERVER['PHP_SELF']); 
 include('navbar.php');
+
+if ((isset($_GET['error'])) AND ($_GET['error'] == "robot"))
+	{
+	echo "<div class=\"alert alert-danger\">Die in Hell, you spamming robot !!!</div>";
+	}
+if ((isset($_GET['envoi'])) AND ($_GET['envoi'] == "1"))
+	{
+	echo "<div class=\"alert alert-success\">Envoi avec copie réussi</div>";
+	}
+if ((isset($_GET['envoi'])) AND ($_GET['envoi'] == "2"))
+	{
+	echo "<div class=\"alert alert-success\">Envoi réussi</div>";
+	}
 ?>
+
 <div class="container">
 <div class="well">
 <div><h1><? echo $con_titre;?></h1></div>
-<form class="form-horizontal">
+<form class="form-horizontal" action="trait_contact.php" method="POST">
   <div class="form-group">
     <label for="inputLName" class="col-sm-2 control-label"><? echo $con_nom;?></label>
     <div class="col-sm-10">
-      <input type="text" class="form-control contacttext" id="inputLName" placeholder="<? echo $con_nom;?>" required>
+      <input type="text" name="nom" class="form-control contacttext" id="inputLName" placeholder="<? echo $con_nom;?>" required />
     </div>
   </div>  
 <div class="form-group">
     <label for="inputFName" class="col-sm-2 control-label"><? echo $con_pre;?></label>
     <div class="col-sm-10">
-      <input type="text" class="form-control contacttext" id="inputFName" placeholder="<? echo $con_pre;?>" required>
+      <input type="text" name="prenom" class="form-control contacttext" id="inputFName" placeholder="<? echo $con_pre;?>" required />
     </div>
   </div>
   <div class="form-group">
     <label for="inputCorp" class="col-sm-2 control-label"><? echo $con_corp;?></label>
     <div class="col-sm-10">
-      <input type="text" class="form-control contacttext" id="inputCorp" placeholder="<? echo $con_corp;?>" required>
+      <input type="text" name="entreprise" class="form-control contacttext" id="inputCorp" placeholder="<? echo $con_corp;?>" required />
     </div>
   </div>
   
   <div class="form-group">
     <label for="inputMail" class="col-sm-2 control-label"><? echo $con_mail;?></label>
     <div class="col-sm-10">
-      <input type="email" class="form-control contacttext" id="inputMail" placeholder="<? echo $con_mail;?>" required>
+      <input type="email" name="mail" class="form-control contacttext" id="inputMail" placeholder="<? echo $con_mail;?>" required />
     </div>
   </div>
   
@@ -93,22 +107,33 @@ include('navbar.php');
     <div class="form-group">
     <label for="inputSub" class="col-sm-2 control-label" ><? echo $con_sub;?></label>
     <div class="col-sm-10">
-      <input type="text" class="form-control contacttext" id="inputSub" placeholder="<? echo $con_sub;?>" required>
+      <input type="text" name="sujet" class="form-control contacttext" id="inputSub" placeholder="<? echo $con_sub;?>" required />
     </div>
   </div>    
   
   <div class="form-group">
     <label for="inputText" class="col-sm-2 control-label"><? echo $con_text;?></label>
     <div class="col-sm-10">
-      <textarea type="textarea" class="form-control contacttext" rows="3" id="inputText" placeholder="<? echo $con_text;?>" required></textarea>
+      <textarea type="textarea" name="texte" class="form-control contacttext" rows="3" id="inputText" placeholder="<? echo $con_text;?>" required></textarea>
     </div>
   </div>
+  
+    <div class="form-group">
+  <label for="inputEnv" class="col-sm-2 control-label"><? echo $con_env;?></label>
+  <div class="col-sm-10">
+  <input type="checkbox" name="env" />
+  </div>
+  </div>
+<input style="display:none;" type="text" name="mail_pro" value="" />
   
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
       <button type="submit" class="btn btn-success"><? echo $con_btn;?></button>
     </div>
   </div>
+
+  
+  
   </div>
   </div>
 </form>
